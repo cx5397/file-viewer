@@ -6,9 +6,7 @@
  * @Descripttion: APP主入口文件
 -->
 <template>
-  <div>
-    <vue-file-viewer />
-  </div>
+  <vue-file-viewer />
 </template>
 
 <script>

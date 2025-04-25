@@ -52,6 +52,7 @@ export default {
   font-size: 1.5rem;
   line-height: 2.2rem;
   padding: 10px;
+  color: #fff;
 }
 
 .download {

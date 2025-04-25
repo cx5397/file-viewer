@@ -19,13 +19,15 @@ export default {
 <style scoped>
 .code-area {
   display: block;
-  margin: 0 auto;
-  font-size: 12px;
+  margin: 20px auto;
+  font-size: 14px;
   width: 1000px;
   min-height: 500px;
-  background: #1f1f1f;
+  background: #fff;
   word-break: break-word;
   white-space: break-spaces;
-  color: #5af117;
+  color: #000;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
 }
 </style>

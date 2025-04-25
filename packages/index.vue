@@ -67,7 +67,7 @@
         v-show="!loading"
         ref="output"
         class="output"
-        style="height: 100%;width: 100%;overflow: auto;transform-origin: top left;"
+        style="height: 100%;width: 100%;overflow: auto;transform-origin: top left;background: rgb(65, 55, 55);"
         :style="{
           transform: `scale(${clientZoom})`,
           height: (1 / clientZoom) * 100 + '%',
@@ -274,6 +274,7 @@ export default {
       // 取得文件名
       const { name } = file
       this.uploadFileName = name
+      document.title = name
       // 取得扩展名并统一转小写兼容大写
       const extend = getExtend(name).toLowerCase()
       // 不支持的类型不显示缩放按钮

@@ -71,6 +71,7 @@ const handlers = [
     accepts: [
       'txt',
       'json',
+      'jsonl',
       'js',
       'css',
       'java',

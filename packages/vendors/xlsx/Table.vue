@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background:#fff;">
     <div>
       <hot-table ref="table" :settings="hotSettings"></hot-table>
     </div>

@@ -5,6 +5,9 @@
   "author": "zhanghan <294333196@qq.com>",
   "license": "MIT",
   "description": "一个基于vue开发的跨框架、多格式、纯前端渲染的文件浏览解决方案（支持格式：pptx,docx,xlsx,pdf,视频,音频,纯文本和图片）",
+  "engines": {
+    "node": "^16.0.0"
+  },
   "directories": {
     "doc": "docs",
     "example": "examples",
@@ -82,8 +85,5 @@
     "iOS >= 8",
     "Firefox >= 20",
     "Android >= 4.4"
-  ],
-  "engines": {
-    "node": ">=12.18.0"
-  }
+  ]
 }
