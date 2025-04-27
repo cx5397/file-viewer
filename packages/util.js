@@ -41,7 +41,10 @@ export async function readDataURL(buffer) {
 export async function readText(buffer) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader()
-    reader.onload = (loadEvent) => resolve(loadEvent.target.result)
+    reader.onload = (loadEvent) => {
+      //console.log('string', '|' + loadEvent.target.result)
+      resolve(loadEvent.target.result)
+    }
     reader.onerror = (e) => reject(e)
     reader.readAsText(new Blob([buffer]), 'utf-8')
   })

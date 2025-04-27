@@ -16,7 +16,9 @@ export default async function render(buffer, target) {
           workbook
         }
       })
-  }).$mount(target).$nextTick(() => {
-    EventBus.$emit('fileLoaded', { fileType: 'excel', success: true });
   })
+    .$mount(target)
+    .$nextTick(() => {
+      EventBus.$emit('fileLoaded', { fileType: 'excel', success: true })
+    })
 }

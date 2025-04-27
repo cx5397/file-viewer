@@ -1,7 +1,5 @@
 <template>
-  <pre class="code-area">
-    {{ value }}
-  </pre>
+  <pre class="code-area">{{ value }}</pre>
 </template>
 
 <script>

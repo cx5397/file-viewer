@@ -60,7 +60,7 @@ const handlers = [
   // 图片过滤器
   {
     parentType: 'image',
-    accepts: ['gif', 'jpg', 'jpeg', 'bmp', 'tiff', 'tif', 'png', 'svg'],
+    accepts: ['gif', 'jpg', 'jpeg', 'bmp', 'tiff', 'tif', 'png', 'svg', 'webp'],
     handler: async (buffer, target) => {
       return renderImage(buffer, target)
     }
@@ -70,6 +70,7 @@ const handlers = [
     parentType: 'text',
     accepts: [
       'txt',
+      'csv',
       'json',
       'jsonl',
       'js',
